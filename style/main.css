@@ -1,0 +1,96 @@
+body{
+    margin: 0%;
+}
+table {
+font-family: Arial, Helvetica, sans-serif;
+border-collapse: collapse;
+width: 70%;
+margin: auto;
+margin-top: 50px;
+text-align: center;
+}
+table th{
+  background-color: black;
+  color: whitesmoke;
+}
+table td,
+table th {
+border: 1px solid #ddd;
+padding: 8px;
+text-align: center;
+
+}
+#nav{
+display: flex;
+justify-content: space-around;
+background-color: black;
+}
+#nav h3 a{
+text-decoration: none;
+color: whitesmoke;
+
+}
+#main{
+  width: 40%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  
+}
+#main > *{
+  margin-top: 5px;
+  margin-bottom: 5px;
+  padding: 5px;
+}
+#create-blg-btn{
+  background-color: black;
+  color: whitesmoke;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#root{
+  width: 35%;
+  height: 400px;
+  margin: auto;
+  text-align: center;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  padding: 2%;
+  line-height: 40px;
+}
+#root p:nth-child(1){
+  font-size: 25px;
+  font-weight: 550;
+}
+#root p:nth-child(2){
+  font-size: 20px;
+  /* font-weight: 550; */
+}
+
+
+#edit-blg-btn{
+  background-color: black;
+  color: whitesmoke;
+  border-radius: 5px;
+  cursor: pointer;
+}
+#input-box{
+  width: 40%;
+  margin: auto;
+  margin-top: 10px;
+}
+#search{
+  width: 400px;
+  height: 35px;
+  font-size: 18px;
+  border-radius: 8px;
+}
+#search-btn{
+  background-color: black;
+  color: whitesmoke;
+  width: 200px;
+  height: 38px;
+  font-size: 18px;
+  border-radius: 8px;
+  cursor: pointer;
+}
